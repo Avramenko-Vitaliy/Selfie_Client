@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        <item
+            android:id="@+id/profile"
+            android:title="@string/profile"
+            android:icon="@drawable/ic_account_box_black_24dp"/>
+        <item
+            android:id="@+id/reminder"
+            android:title="@string/reminder"
+            android:icon="@drawable/ic_info_black_24dp"/>
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout"
+        android:icon="@drawable/ic_directions_run_black_24dp"/>
+</menu>

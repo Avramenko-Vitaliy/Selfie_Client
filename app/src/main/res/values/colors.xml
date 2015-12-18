@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#64b5f6</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+
+    <!-- TEAL COLORS-->
+    <color name="teal_50">#e0f2f1</color>
+    <color name="teal_100">#b2dfdb</color>
+    <color name="teal_200">#80cbc4</color>
+    <color name="teal_300">#4db6ac</color>
+    <color name="teal_400">#26a69a</color>
+    <color name="teal_500">#009688</color>
+    <color name="teal_600">#00897b</color>
+    <color name="teal_700">#00796b</color>
+    <color name="teal_800">#00695c</color>
+    <color name="teal_900">#004d40</color>
+</resources>

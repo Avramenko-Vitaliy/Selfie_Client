@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Selfie</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Настройки</string>
+    <string name="sign_in">Войти</string>
+    <string name="sign_up">Регистрация</string>
+    <string name="cancel">Отмена</string>
+    <string name="login">Логин</string>
+    <string name="password">Пароль</string>
+    <string name="confirm_password">Подтверждение пароля</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="remember_me">Запомнить меня</string>
+    <string name="msg_fail_connected">Не удалось авторизировать, проверте интернет соединение и данные авторизации.</string>
+    <string name="msg_fail_register">Не удалось зарегистрировать, проверте интернет соединение и данные авторизации.</string>
+    <string name="msg_empty_credentials">Данные авторизации не должны быть пустыми.</string>
+    <string name="msg_pass_not_equals">Пароль и подтверждение пароля должны быть равны.</string>
+    <string name="msg_blank">Поле не может быть пустым</string>
+    <string name="rotate_left">Повернуть влево</string>
+    <string name="rotate_right">Повернуь вправо</string>
+    <string name="sepia">Сепия</string>
+    <string name="black_and_white">Черно-белый</string>
+    <string name="brightness">Яркость</string>
+    <string name="camera">Камера</string>
+    <string name="fail_load">Не удалось загрузить данные, проверьте подключение к интернету или попробуйте позже.</string>
+    <string name="gallery">Галерея</string>
+    <string name="pb_title">Загрузка Селфи</string>
+    <string name="pb_message">Загрузка…\u000AПодождите…</string>
+    <string name="msg_fail_upload">Ошибка загрузки, попробуйте позже!</string>
+    <string name="description">Описание</string>
+    <string name="title">Название</string>
+    <string name="take_selfie">Сделайте селфи</string>
+    <string name="reminder">Напоминание</string>
+    <string name="profile">Профиль</string>
+    <string name="tools">Настройки</string>
+    <string name="users">Пользователи</string>
+    <string name="done">Готово</string>
+    <string name="not_remind">Не напоминать</string>
+    <string name="logout">Выйти</string>
+    <string name="new_password">Новый пароль</string>
+</resources>

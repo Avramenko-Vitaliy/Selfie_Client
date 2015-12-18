@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="activity.SelfieActivity">
+    <!--<item-->
+        <!--android:id="@+id/menu_rotate_left"-->
+        <!--android:icon="@drawable/ic_rotate_left_white_24dp"-->
+        <!--android:title="@string/rotate_left"-->
+        <!--app:showAsAction="always"/>-->
+    <!--<item-->
+        <!--android:id="@+id/menu_rotate_right"-->
+        <!--android:title="@string/rotate_right"-->
+        <!--android:icon="@drawable/ic_rotate_right_white_24dp"-->
+        <!--app:showAsAction="always"/>-->
+    <item
+        android:id="@+id/menu_brightness"
+        android:title="@string/brightness"
+        android:icon="@drawable/ic_brightness_6_white_24dp"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_sepia"
+        android:title="@string/sepia"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/menu_black_white"
+        android:title="@string/black_and_white"
+        app:showAsAction="never"/>
+</menu>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                 xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                 xmlns:tools="http://schemas.android.com/tools"
+                                                 android:layout_width="match_parent"
+                                                 android:layout_height="match_parent"
+                                                 tools:context=".activity.SelfieActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/selfie_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/material_deep_teal_500"
+                android:title="@string/app_name"
+                app:popupTheme="@style/AppTheme.PopupOverlay"/>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_selfie"
+                android:layout_width="250dp"
+                android:layout_height="fill_parent"
+                android:onClick="selectImage"/>
+
+            <LinearLayout
+                android:id="@+id/container_data"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ViewSwitcher
+                    android:id="@+id/switcher_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/lb_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:singleLine="true"
+                        android:hint="@string/title"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_size_25"
+                        android:textStyle="bold"/>
+                    <EditText
+                        android:theme="@style/Theme.App.Base"
+                        android:id="@+id/lb_edit_title"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:hint="@string/title"
+                        android:singleLine="true"
+                        android:textColor="@color/black"
+                        android:textSize="25sp"
+                        android:textStyle="bold"/>
+                </ViewSwitcher>
+
+                <TextView
+                    android:id="@+id/lb_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="dd.mm.yy"/>
+
+                <ViewSwitcher
+                    android:id="@+id/switcher_desc"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <TextView
+                        android:id="@+id/lb_view_desc"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="25dp"
+                        android:hint="@string/description"/>
+                    <EditText
+                        android:gravity="top"
+                        android:theme="@style/Theme.App.Base"
+                        android:id="@+id/lb_edit_desc"
+                        android:inputType="textMultiLine"
+                        android:ems="10"
+                        android:hint="@string/description"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="25dp"/>
+                </ViewSwitcher>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btn_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:src="@mipmap/ic_edit_white_18dp"
+        app:layout_anchor="@id/img_selfie"
+        app:layout_anchorGravity="center|end"
+        app:pressedTranslationZ="12dp"/>
+</android.support.design.widget.CoordinatorLayout>
